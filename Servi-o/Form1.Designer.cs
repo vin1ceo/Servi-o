@@ -35,6 +35,7 @@
             lbtotal = new Label();
             lbresultado = new Label();
             btnSoma = new Button();
+            button1 = new Button();
             SuspendLayout();
             // 
             // txvalor1
@@ -98,11 +99,21 @@
             btnSoma.Text = "Soma";
             btnSoma.UseVisualStyleBackColor = true;
             // 
+            // button1
+            // 
+            button1.Location = new Point(363, 214);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 7;
+            button1.Text = "Soma";
+            button1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button1);
             Controls.Add(btnSoma);
             Controls.Add(lbresultado);
             Controls.Add(lbtotal);
@@ -125,5 +136,6 @@
         private Label lbtotal;
         private Label lbresultado;
         private Button btnSoma;
+        private Button button1;
     }
 }
